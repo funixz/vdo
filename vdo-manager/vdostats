@@ -48,6 +48,9 @@ parser.add_option("--all", action="store_true", dest="all",
 parser.add_option("--human-readable", action="store_true",
                   dest="humanReadable",
                   help=_("Display stats in human-readable form"))
+parser.add_option("-h", action="store_true",
+                  dest="humanReadable",
+                  help=_("Display stats in human-readable form"))
 parser.add_option("--si", action="store_true", dest="si",
                   help=_("Use SI units, implies --human-readable"))
 parser.add_option("--verbose", action="store_true", dest="verbose",
